@@ -8,8 +8,8 @@
 		"android": "expo start --android",
 		"ios": "expo start --ios",
 		"eject": "expo eject",
-		"test": "nyc jest",
-		"posttest": "nyc report --reporter=json"
+		"test": "nyc jest --coverage",
+		"posttest": "nyc report --reporter=json > coverage/coverage.json"
 	},
 	"keywords": [
 		"react",
