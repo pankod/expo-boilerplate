@@ -8,7 +8,8 @@
 		"android": "expo start --android",
 		"ios": "expo start --ios",
 		"eject": "expo eject",
-		"test": "jest --coverage"
+		"test": "nyc jest",
+		"posttest": "nyc report --reporter=json"
 	},
 	"keywords": [
 		"react",
@@ -36,11 +37,12 @@
 		"@types/expo": "^32.0.13",
 		"@types/react-native": "^0.57.55",
 		"babel-preset-expo": "^5.0.0",
-		"module-resolver": "^1.0.0",
 		"enzyme": "^3.9.0",
 		"enzyme-adapter-react-16": "^1.13.0",
 		"jest": "^24.8.0",
 		"jest-expo": "^32.0.0",
+		"module-resolver": "^1.0.0",
+		"nyc": "^14.1.1",
 		"react-dom": "^16.5.0",
 		"typescript": "^3.4.5"
 	},
