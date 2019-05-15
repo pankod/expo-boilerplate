@@ -27,16 +27,16 @@ Thanks to this project, it’ll be too easy to add example to pankod open source
 ## Getting Started
 
 
-1. You should have React Native CLI to be installed in order to run example. Follow this [instructions](https://facebook.github.io/react-native/docs/getting-started) if you need to install Expo CLI.
+1. You should have React Expo CLI to be installed in order to run example. Follow this [instructions](https://facebook.github.io/react-native/docs/getting-started) if you need to install Expo CLI.
 <br/>
    
-2. Clone the repository and install the dependencies:
+2. Clone the repository:
 
 ```
 git clone https://github.com/pankod/expo-boilerplate.git
 ```
 
-3. To create a new app, go to the choosen app directory on the CLI then run one of the following methods:
+3. Install the dependencies:
    
 
 ```sh
@@ -44,11 +44,19 @@ npm install
 ```
 
 4. Once the installation is done, you can run the following command:
-
+ 
+ **npm**
  ```
  npm start
  ```
  You can also use:
+
+ **expo**
+  ```
+ expo start
+ ```
+
+  **yarn**
   ```
  expo start
  ```
