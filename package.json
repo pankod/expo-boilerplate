@@ -55,6 +55,5 @@
 		"setupFiles": [
 			"./test/setupTests.js"
 		]
-	},
-	"private": true
+	}
 }
