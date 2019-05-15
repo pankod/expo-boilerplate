@@ -8,5 +8,5 @@ notifications:
   email: true
 node_js:
   - "node"
-script:
+after_success:
   - codecov
