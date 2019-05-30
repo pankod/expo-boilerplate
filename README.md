@@ -5,6 +5,8 @@
 
 ----
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/pankod/expo-boilerplate.svg)](https://greenkeeper.io/)
+
 ### About
 
 Thanks to this project, it’ll be too easy to add example to pankod open source projects.
