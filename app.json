@@ -3,7 +3,7 @@
     "name": "expo-boilerplate",
     "slug": "expo-boilerplate",
     "privacy": "public",
-    "sdkVersion": "32.0.0",
+    "sdkVersion": "35.0.0",
     "platforms": [
       "ios",
       "android"
@@ -22,6 +22,7 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "description": "React Native Expo boilerplate with Typescript support"
   }
 }
